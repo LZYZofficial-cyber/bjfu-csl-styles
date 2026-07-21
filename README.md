@@ -2,7 +2,7 @@
 不会写description,欢迎**提PR告诉我**description怎么写
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/your-username/bjfu-csl-styles/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/LZYZofficial-cyber/bjfu-csl-styles/pulls)
 ## General Introduction
 因为校报格式与7714格式不一致
 本项目提供：
