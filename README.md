@@ -3,6 +3,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/LZYZofficial-cyber/bjfu-csl-styles/pulls)
+![Handcrafted Code](https://img.shields.io/badge/Code-100%25_Handcrafted-brightgreen)
 ## General Introduction
 因为校报格式与7714格式不一致
 本项目提供：
