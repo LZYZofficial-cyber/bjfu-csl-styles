@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" name-as-sort-order="all" sort-separator=" " initialize-with=" " page-range-format="expanded" default-locale="zh-CN">
   <info>
-    <title>GB/T 7714—2025（experiment）</title>
-    <id>https://zotero-chinese.com/styles/111</id>
+    <title>北京林业大学学报 (Beijing Forestry University)</title>
+    <id>http://www.zotero.org/styles/beijing-forestry-university</id>
+    <link href="http://www.zotero.org/styles/beijing-forestry-university" rel="self"/>
     <link href="https://zotero-chinese.com/styles/GB-T-7714—2015（顺序编码，双语）" rel="template"/>
-    <link href="https://std.samr.gov.cn/gb/search/gbDetailed?id=4507EFE13D37CB6AE06397BE0A0A601F" rel="documentation"/>
+    <link href="https://github.com/LZYZofficial-cyber/bjfu-csl-styles" rel="documentation"/>
     <author>
       <name>Zeping Lee</name>
       <email>zepinglee@gmail.com</email>
     </author>
+    <contributor>
+      <name>LZYZofficial-cyber</name>
+    </contributor>
     <category citation-format="numeric"/>
     <category field="generic-base"/>   
-    <summary>GB/T 7714—2025 信息与文献 参考文献著录规则（2026-07-01实施）</summary>
-    <updated>2026-08-06T20:53:37+08:00</updated>
+    <summary>北京林业大学学报参考文献著录规则（基于 GB/T 7714—2025 顺序编码制修改）</summary>
+    <updated>2026-08-15T12:00:00+08:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
