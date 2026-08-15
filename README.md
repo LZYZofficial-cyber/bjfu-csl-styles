@@ -1,7 +1,6 @@
 # bjfu-csl-styles
 不会写description,欢迎**提PR告诉我**description怎么写
 
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/LZYZofficial-cyber/bjfu-csl-styles/pulls)
 ![Handcrafted Code](https://img.shields.io/badge/Code-100%25_Handcrafted-brightgreen)
 ## General Introduction
@@ -23,3 +22,5 @@
 1. **帮我写 Description(和CONTRIBUTING.md)**（我实在不会写）
 2. **测试 CSL 文件**：如果你发现引用格式有 bug，请提 Issue
 3. **适配更多院系/学报版本**：社科版和自科版格式不同？欢迎 PR
+
+> 本项目由生成式人工智能辅助完成
