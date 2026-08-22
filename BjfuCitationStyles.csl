@@ -49,7 +49,7 @@
   <!-- 主要责任者 -->
   <macro name="author">
     <names variable="composer">
-      <name delimiter="，"/>
+      <name delimiter=", "/>
       <substitute>
         <names variable="author"/>
         <names variable="illustrator"/>
@@ -69,7 +69,7 @@
   <!-- 题名 -->
   <macro name="title">
     <group delimiter=". ">
-      <group delimiter="：">
+      <group delimiter=":">
         <text variable="title"/>
         <choose>
           <if variable="container-title" type="chapter entry-dictionary entry-encyclopedia paper-conference" match="none">
@@ -194,14 +194,14 @@
   <!-- 其他责任者 -->
   <macro name="secondary-contributors">
     <names variable="translator">
-      <name delimiter=","/>
-      <label form="short" prefix=","/>
+      <name delimiter=", "/>
+      <label form="short" prefix=", "/>
     </names>
   </macro>
   <!-- 图书主要责任者 -->
   <macro name="container-contributors">
     <names variable="container-author">
-      <name delimiter=","/>
+      <name delimiter=", "/>
       <substitute>
         <names variable="editor"/>
         <names variable="editorial-director"/>
@@ -216,7 +216,7 @@
       <if variable="container-title">
         <group delimiter=". ">
           <text macro="container-contributors"/>
-          <group delimiter="：">
+          <group delimiter=":">
             <text variable="container-title"/>
             <text macro="volume"/>
           </group>
@@ -229,7 +229,7 @@
     <choose>
       <if type="article-newspaper">
         <!-- 报纸的出处项：“刊名，出版日期（版次）：页码” -->
-        <group delimiter=",">
+        <group delimiter=", ">
           <text variable="container-title" strip-periods="true"/>
           <text macro="date"/>
         </group>
@@ -238,7 +238,7 @@
         <!-- 期刊、杂志的出处项：“刊名，年，卷（期）：页码” -->
         <group delimiter=":">
           <group>
-            <group delimiter=",">
+            <group delimiter=", ">
               <text variable="container-title" strip-periods="true"/>
               <choose>
                 <if variable="volume issue" match="none">
@@ -299,7 +299,7 @@
       </if>
       <else-if type="book chapter classic entry-dictionary entry-encyclopedia map paper-conference periodical thesis" variable="publisher" match="any">
         <group delimiter=":">
-          <group delimiter=",">
+          <group delimiter=", ">
             <group delimiter=":">
               <text variable="publisher-place"/>
               <text variable="publisher"/>
@@ -327,7 +327,7 @@
       </else-if>
       <else-if type="post post-weblog webpage" variable="URL" match="none">
         <group delimiter=":">
-          <group delimiter=",">
+          <group delimiter=", ">
             <group delimiter=":">
               <text variable="publisher-place"/>
               <text variable="publisher"/>
