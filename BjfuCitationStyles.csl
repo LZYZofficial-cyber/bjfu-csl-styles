@@ -144,7 +144,10 @@
       <else-if type="book chapter classic entry-dictionary entry-encyclopedia" match="any">
         <text value="M"/>
       </else-if>
-      <else-if type="collection manuscript personal_communication" match="any">
+      <else-if type="collection">
+        <text value="C"/>
+      </else-if>
+      <else-if type="manuscript personal_communication" match="any">
         <text value="Z"/>
       </else-if>
       <else-if type="dataset">
@@ -185,7 +188,7 @@
       <if variable="medium">
         <text variable="medium"/>
       </if>
-      <else-if type="article dataset post post-weblog webpage" variable="URL" match="all">
+      <else-if type="article article-journal article-magazine dataset book chapter post post-weblog webpage" variable="URL" match="all">
         <text value="OL"/>
       </else-if>
     </choose>
@@ -231,6 +234,7 @@
         <group delimiter=", ">
           <text variable="container-title" strip-periods="true"/>
           <text macro="date"/>
+          <text variable="edition" prefix="(" suffix=")"/>
         </group>
       </if>
       <else>
@@ -447,10 +451,8 @@
         </else-if>
         <else-if type="standard">
           <!-- 8.9 标准 -->
-          <group delimiter=" ">
-            <text variable="number"/>
-            <text macro="title"/>
-          </group>
+          <text macro="title"/>
+          <text macro="publisher"/>
         </else-if>
         <else-if type="article dataset" match="any">
           <!-- 8.14 数据集、8.15 预印本 -->
