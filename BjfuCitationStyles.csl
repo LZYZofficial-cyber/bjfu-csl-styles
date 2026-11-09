@@ -4,7 +4,7 @@
     <title>北京林业大学学报 (Beijing Forestry University)</title>
     <id>http://www.zotero.org/styles/beijing-forestry-university</id>
     <link href="http://www.zotero.org/styles/beijing-forestry-university" rel="self"/>
-    <link href="https://zotero-chinese.com/styles/GB-T-7714—2015（顺序编码，双语）" rel="template"/>
+    <link href="https://zotero-chinese.com/styles/GB-T-7714%E2%80%942025%EF%BC%88%E9%A1%BA%E5%BA%8F%E7%BC%96%E7%A0%81%EF%BC%8C%E5%8F%8C%E8%AF%AD%EF%BC%89/" rel="template"/>
     <link href="https://github.com/LZYZofficial-cyber/bjfu-csl-styles" rel="documentation"/>
     <author>
       <name>Zeping Lee</name>
@@ -42,7 +42,6 @@
       <date-part name="day" form="numeric-leading-zeros" prefix="-" range-delimiter="/"/>
     </date>
     <terms>
-      <term name="citation-range-delimiter">-</term> <!-- CSL-M 扩展-->
       <term name="page-range-delimiter">−</term>
     </terms>
   </locale>
@@ -494,7 +493,6 @@
     </layout>
   </citation>
   <bibliography entry-spacing="0" et-al-min="4" et-al-use-first="3" second-field-align="flush">
-    <layout locale="en"> <!-- CSL-M 扩展 -->
       <text variable="citation-number" prefix="[" suffix="]"/>
       <text macro="entry-layout" suffix="."/>
     </layout>
