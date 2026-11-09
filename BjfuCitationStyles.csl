@@ -79,7 +79,7 @@
           </if>
         </choose>
         <choose>
-          <if type="article article-journal standard" match="none">
+          <if type="article article-journal" match="none">
             <!-- 预印本、期刊文章、标准的编号在其他位置 -->
             <text macro="number"/>
           </if>
